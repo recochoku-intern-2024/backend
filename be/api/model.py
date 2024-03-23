@@ -10,12 +10,27 @@ class TestUserTable(Base):
     name = Column(String(30), nullable=False)
     email = Column(String(128), nullable=False)
 
+class KyakuhonTable(Base):
+    __tablename__ = 'kyakuhon'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    title = Column(String(30), nullable=False)
+    author = Column(String(30), nullable=False)
+    genre = Column(Integer, nullable=False)
+    price = Column(Integer, nullable=False)
+
+
 # モデル定義 
 class TestUser(BaseModel):
     id: int
     name: str
     email: str
 
+class Kyakuhon(BaseModel):
+    id: int
+    title: str
+    author: str
+    genre: int
+    price: int
 
 def main():
     # テーブル構築
