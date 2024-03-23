@@ -7,7 +7,7 @@ db_name = "sample_db"
 user = "mysqluser"
 password = "mysqlpass"
 
-DATABASE = 'mysql://%s:%s@%s/%s?charset=utf8' % (
+DATABASE = 'mysql://%s:%s@%s/%s?charset=utf8mb4' % (
     user,
     password,
     host,
@@ -16,7 +16,6 @@ DATABASE = 'mysql://%s:%s@%s/%s?charset=utf8' % (
 
 ENGINE = create_engine(
     DATABASE,
-    encoding="utf-8",
     echo=True
 )
 
