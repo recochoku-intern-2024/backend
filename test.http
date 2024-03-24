@@ -1,0 +1,9 @@
+POST http://localhost:8000/add_kyakuhon HTTP/1.1
+content-type: application/json
+
+{
+  "title": "string",
+  "author": "strin1111g",
+  "genre": 0,
+  "price": 9877
+}
