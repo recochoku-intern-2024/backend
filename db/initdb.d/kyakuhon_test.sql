@@ -1,0 +1,10 @@
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり1", "田中太郎", 0, 10000);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり2", "佐藤花子", 0, 12000);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり3", "鈴木一郎", 1, 9500);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり4", "伊藤涼子", 0, 8500);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり5", "山田恵美", 1, 7600);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり6", "中村悠斗", 2, 11000);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり7", "小林由美子", 0, 12500);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり8", "高橋健太", 1, 11300);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり9", "加藤あゆみ", 1, 13000);
+INSERT INTO kyakuhon (title, author, genre, price) VALUES ("ものがたり10", "渡辺直美", 0, 9900);

@@ -10,6 +10,12 @@ def get_user_list():
     users = session.query(TestUserTable).all()
     return users
 
+@app.get("/kyakuhon")
+def get_all_kyakuhon():
+    users = session.query(KyakuhonTable).all()
+    return users
+
+
 
 # ユーザー情報取得(id指定)
 @app.get("/test_users/{user_id}")
