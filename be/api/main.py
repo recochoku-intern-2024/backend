@@ -24,6 +24,11 @@ def get_user(user_id: int):
         filter(TestUserTable.id == user_id).first()
     return user
 
+@app.get("/kyakuhon/{kyakuhon_id}")
+def get_kyakuhon(kyakuhon_id: int):
+    user = session.query(KyakuhonTable).\
+        filter(KyakuhonTable.id == kyakuhon_id).first()
+    return user
 
 # ユーザ情報登録
 @app.post("/test_users")
